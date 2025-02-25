@@ -1,3 +1,5 @@
+ # Inheritance and Polymorphism. The key to writing maintainable code is to keep it DRY as possible. 
+ # DRY stands for Don't Repeat Yourself.
 class Employee:
     __slots__ = ("name", "age", "salary")
     def __init__(self, name, age, salary):
