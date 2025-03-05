@@ -14,3 +14,4 @@ def update_author_json(fn, arr_name, pos, key, value):
             
 
 read_print_json('authors.json', False, False)
+update_author_json('authors.json', 'authors', 0, 'name', 'Leamsixthaboy')
